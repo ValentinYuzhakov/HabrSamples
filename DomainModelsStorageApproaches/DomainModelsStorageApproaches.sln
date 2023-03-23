@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{67E5D923-4CA1-49E2-B40E-BB77E979A991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectStorageApproach", "DirectStorageApproach", "{3AEFE57F-D485-4F4A-9618-DF1A1EF6ECDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MappingToDbEntitiesApproach", "MappingToDbEntitiesApproach", "{1CBB3E09-C59D-4AD7-9501-6ED5512DB428}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectStorageApproach.Domain", "DirectStorageApproach\DirectStorageApproach.Domain\DirectStorageApproach.Domain.csproj", "{9472632E-BC76-49CD-9188-CD38945D50E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectStorageApproach.Infrastructure", "DirectStorageApproach\DirectStorageApproach.Infrastructure\DirectStorageApproach.Infrastructure.csproj", "{A011CDD9-275B-4AC8-B95F-0A4D30D765E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectStorageApproach.Application", "DirectStorageApproach\DirectStorageApproach.Application\DirectStorageApproach.Application.csproj", "{E9821618-98A7-4B43-B3BC-001CB172AD06}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MappingToDbEntitiesApproach.Domain", "MappingToDbEntitiesApproach\MappingToDbEntitiesApproach.Domain\MappingToDbEntitiesApproach.Domain.csproj", "{1BCDEA96-2167-417A-95C0-7FF9DB478D0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MappingToDbEntitiesApproach.Application", "MappingToDbEntitiesApproach\MappingToDbEntitiesApproach.Application\MappingToDbEntitiesApproach.Application.csproj", "{B70C95D8-D745-424E-8023-28DE8C3A919D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MappingToDbEntitiesApproach.Infrastructure", "MappingToDbEntitiesApproach\MappingToDbEntitiesApproach.Infrastructure\MappingToDbEntitiesApproach.Infrastructure.csproj", "{88567128-D08B-419B-99A3-0C358F851027}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MappingToDbEntitiesApproach.UnitTests", "MappingToDbEntitiesApproach\MappingToDbEntitiesApproach.UnitTests\MappingToDbEntitiesApproach.UnitTests.csproj", "{38D0C0F7-244E-4568-B39C-34AEBCB0F870}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67E5D923-4CA1-49E2-B40E-BB77E979A991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E5D923-4CA1-49E2-B40E-BB77E979A991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E5D923-4CA1-49E2-B40E-BB77E979A991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E5D923-4CA1-49E2-B40E-BB77E979A991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9472632E-BC76-49CD-9188-CD38945D50E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9472632E-BC76-49CD-9188-CD38945D50E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9472632E-BC76-49CD-9188-CD38945D50E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9472632E-BC76-49CD-9188-CD38945D50E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A011CDD9-275B-4AC8-B95F-0A4D30D765E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A011CDD9-275B-4AC8-B95F-0A4D30D765E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A011CDD9-275B-4AC8-B95F-0A4D30D765E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A011CDD9-275B-4AC8-B95F-0A4D30D765E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9821618-98A7-4B43-B3BC-001CB172AD06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9821618-98A7-4B43-B3BC-001CB172AD06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9821618-98A7-4B43-B3BC-001CB172AD06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9821618-98A7-4B43-B3BC-001CB172AD06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCDEA96-2167-417A-95C0-7FF9DB478D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCDEA96-2167-417A-95C0-7FF9DB478D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCDEA96-2167-417A-95C0-7FF9DB478D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCDEA96-2167-417A-95C0-7FF9DB478D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70C95D8-D745-424E-8023-28DE8C3A919D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70C95D8-D745-424E-8023-28DE8C3A919D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70C95D8-D745-424E-8023-28DE8C3A919D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70C95D8-D745-424E-8023-28DE8C3A919D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88567128-D08B-419B-99A3-0C358F851027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88567128-D08B-419B-99A3-0C358F851027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88567128-D08B-419B-99A3-0C358F851027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88567128-D08B-419B-99A3-0C358F851027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D0C0F7-244E-4568-B39C-34AEBCB0F870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D0C0F7-244E-4568-B39C-34AEBCB0F870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D0C0F7-244E-4568-B39C-34AEBCB0F870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D0C0F7-244E-4568-B39C-34AEBCB0F870}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9472632E-BC76-49CD-9188-CD38945D50E0} = {3AEFE57F-D485-4F4A-9618-DF1A1EF6ECDF}
+		{A011CDD9-275B-4AC8-B95F-0A4D30D765E2} = {3AEFE57F-D485-4F4A-9618-DF1A1EF6ECDF}
+		{E9821618-98A7-4B43-B3BC-001CB172AD06} = {3AEFE57F-D485-4F4A-9618-DF1A1EF6ECDF}
+		{1BCDEA96-2167-417A-95C0-7FF9DB478D0F} = {1CBB3E09-C59D-4AD7-9501-6ED5512DB428}
+		{B70C95D8-D745-424E-8023-28DE8C3A919D} = {1CBB3E09-C59D-4AD7-9501-6ED5512DB428}
+		{88567128-D08B-419B-99A3-0C358F851027} = {1CBB3E09-C59D-4AD7-9501-6ED5512DB428}
+		{38D0C0F7-244E-4568-B39C-34AEBCB0F870} = {1CBB3E09-C59D-4AD7-9501-6ED5512DB428}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3801CE0-79D6-4989-838F-3EB366F72A13}
+	EndGlobalSection
+EndGlobal
